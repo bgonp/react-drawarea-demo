@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.drawarea {
+  position: relative;
+  flex-grow: 1;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  background: url("../assets/background.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  background: #fff9;
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+  width: 28rem;
+  max-width: 90%;
+  text-align: justify;
+  border-radius: 0.25rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
