@@ -2,6 +2,7 @@ import { useState } from "react";
 import { DrawArea } from "react-drawarea";
 
 import Actions from "./Actions";
+import DrawMessage from "./DrawMessage";
 import Info from "./Info";
 
 import styles from "../styles/App.module.css";
@@ -56,6 +57,7 @@ const App = () => {
           nextOpacity={nextOpacity}
           nextThickness={nextThickness}
         />
+        <DrawMessage />
       </DrawArea>
       <Info />
     </div>

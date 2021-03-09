@@ -1,0 +1,12 @@
+.message {
+  position: absolute;
+  inset: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+  font-weight: 700;
+  color: #ddd;
+  z-index: -1;
+}
