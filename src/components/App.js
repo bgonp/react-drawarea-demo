@@ -49,6 +49,7 @@ const App = () => {
             </p>
           </div>
         )}
+        <DrawMessage hidden={hidden} paused={paused} />
         <Actions
           togglePaused={togglePaused}
           toggleHidden={toggleHidden}
@@ -57,7 +58,6 @@ const App = () => {
           nextOpacity={nextOpacity}
           nextThickness={nextThickness}
         />
-        <DrawMessage />
       </DrawArea>
       <Info />
     </div>
