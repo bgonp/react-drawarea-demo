@@ -1,0 +1,30 @@
+.buttons {
+  margin: 0.2rem;
+}
+
+.left,
+.right {
+  background: #09f;
+  border: 2px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.25rem 1rem 0.3rem;
+  text-decoration: none;
+}
+
+.left {
+  border-radius: 3rem 0 0 3rem;
+  padding-right: 0.3rem;
+}
+
+.right {
+  border-radius: 0 3rem 3rem 0;
+  padding-left: 0.3rem;
+}
+
+.left:focus,
+.right:focus {
+  outline: 0;
+  border-color: #05a;
+}
