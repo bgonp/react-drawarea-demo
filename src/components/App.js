@@ -7,7 +7,7 @@ import Info from "./Info";
 
 import styles from "../styles/App.module.css";
 
-const COLORS = ["ef476f", "ffd166", "06d6a0", "0099ff", "073b4c"];
+const COLORS = ["0099ff", "ef476f", "ffd166", "06d6a0", "073b4c"];
 const OPACITIES = ["FF", "CC", "88", "44"];
 const THICKNESS = [1, 5, 10, 15, 20];
 
@@ -51,6 +51,8 @@ const App = () => {
         )}
         <DrawMessage hidden={hidden} paused={paused} />
         <Actions
+          color={color}
+          thickness={THICKNESS[thicknessIndex]}
           togglePaused={togglePaused}
           toggleHidden={toggleHidden}
           toggleBackground={toggleBackground}
