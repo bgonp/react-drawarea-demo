@@ -9,7 +9,7 @@ import styles from "../styles/App.module.css";
 
 const COLORS = ["0099ff", "ef476f", "ffd166", "06d6a0", "073b4c"];
 const OPACITIES = ["FF", "CC", "88", "44"];
-const THICKNESS = [1, 5, 10, 15, 20];
+const THICKNESS = [2, 5, 10, 15, 20];
 
 const App = () => {
   const [paused, setPaused] = useState(false);
