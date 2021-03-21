@@ -8,7 +8,7 @@ const SOURCE_URL = "https://github.com/bgonp/react-drawarea-demo";
 const Info = () => (
   <div className={styles.info}>
     <Button href={PACKAGE_URL}>
-      package <strong>react-drawarea</strong> demo
+      <strong>react-drawarea</strong> demo
     </Button>
     <Button href={SOURCE_URL}>source code</Button>
   </div>
